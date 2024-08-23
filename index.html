@@ -4,8 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinterio</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- DaisyUi CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Manrope Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/453f6124f9.js" crossorigin="anonymous"></script>
+
+    <style>
+        .manrope-font {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+    </style>
+    
+      
 </head>
-<body>
+ 
+
+<body class="manrope-font">
+    <header class=" bg-[#fafafa]">
+        <!-- Navbar Start -->
+         <nav class="w-11/12 mx-auto lg:w-10/12">
+            <div class="navbar flex justify-between ">
+                <div class="">
+                    <!-- <i class="fa-solid fa-arrow-right -rotate-45 text-xl bg-[#ABEF5F]   rounded-full p-2"></i> -->
+                    <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F]   rounded-full p-2"></i>
+                  <a class=" ml-1 text-black font-extrabold text-3xl">Rinterio</a>
+    
+                </div>
+                <div class=" hidden lg:flex items-center">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="font-bold">Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                    
+                    
+                  </ul>
+                </div>
+                <div>
+    
+                    <div class="mr-3 hidden lg:block">
+                        <i class="fa-solid fa-magnifying-glass mr-3 bg-white p-2 drop-shadow-md text-gray-800 rounded-full"></i>
+                        <i class="fa-solid fa-cart-shopping mr-3 bg-white p-2 drop-shadow-md text-gray-800 rounded-full "></i>
+                    </div>
+                   
+                    <div class=" hidden lg:block bg-[#ABEF5F] rounded-3xl p-2  ">
+                    
+                        <a class=" font-extrabold text-1xl mr-2  ">Book Consult</a>
+                        <i class="fa-solid fa-arrow-right -rotate-45 bg-[#000000] text-white  rounded-full p-2"></i>
+          
+                        
+                      </div>
+                </div>
+                
+                <i class=" block lg:hidden fa-solid fa-bars"></i>
+              </div>
+         </nav>
+         
+        <!-- Hero Section Start -->
+         <div class="w-11/12 lg:w-10/12 mx-auto pb-14">
+            <!-- Image section -->
+            <div>
+                <img class="mx-auto " src="images/assets/banner.png" alt="">
+            </div>
+
+            <!-- Text Section & Button-->
+             <div class="mx-auto text-center">
+                <h1 class="text-6xl font-extrabold mb-8 text-[#212121]">A barn house of this design has a <br> striking appearance</h1>
+                <p class="font-medium  text-[#494949] mb-6">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+
+                <div>
+                    
+                    <a class=" btn p-1.5 bg-[#d1ff9d] rounded-3xl  font-extrabold text-1xl">View Details
+                        <i class="fa-solid fa-arrow-right -rotate-45 bg-[#8ced1e] text-white  rounded-full p-2"></i>
+                    </a>
+                    
+      
+                    
+                  </div>
+                
+             </div>
+             
+
+         </div>
+        
+    </header>
+
+    <main class="bg-gray-200"> 
+        <!-- We Design Section -->
+         <section class=" pt-10">
+
+            <img class=" hidden lg:block w-20 ml-28 " src="images/assets/Vector.png" alt="">
+        <div class=" lg:flex gap-7 justify-between w-11/12 lg:w-10/12 mx-auto">
+            
+
+            <div>
+
+            
+            <a class=" btn p-1 bg-[#ffffff] rounded-full font-extrabold mt-2 text-1xl">About Us
+                <i class="fa-solid fa-arrow-right -rotate-10  text-black  rounded-full p-2"></i></a>
+
+            
+            <h1 class="font-bold text-4xl mb-5 mt-5">We design thoughtful,<br>liveable spaces</h1>
+            <p class="text-1xl font-medium text-[#494949] mb-5">The barn house captivates with its blend of rustic charm and 
+                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+                <div class="flex gap-3 bg-white drop-shadow-lg p-3 rounded-xl mb-5">
+                    <img src="images/assets/commercial.png" alt="">
+                    <div class="">
+                        <h3>Commercial</h3>
+                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-3 bg-white drop-shadow-lg p-3 rounded-xl mb-6">
+                    <img src="images/assets/commercial.png" alt="">
+                    <div class="">
+                        <h3>Residential</h3>
+                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+            </div>
+                <div>
+            <img src="images/assets/Rectangle.png" alt="">
+                </div>
+        </div>
+         </section>
+        
+
+    </main>
     
 </body>
 </html>
